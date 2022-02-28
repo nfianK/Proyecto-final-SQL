@@ -80,4 +80,3 @@ genero_id int,
 foreign key (album_id) references Album(album_id),
 foreign key (genero_id) references Genero(genero_id)
 );
-
