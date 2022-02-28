@@ -29,6 +29,9 @@ begin
     -- Filtro por el nombre de la cancion para poder sacar el nombre del album
     where cancion.nombre like nombre_cancion;
     return nombre_album;
+end #
+
+delimiter ;
     
     
     
