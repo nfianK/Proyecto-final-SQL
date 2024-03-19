@@ -1,0 +1,30 @@
+album_id;banda_id;nombre;fecha_lanza;duracion
+1;1;Almendra;1969;0:37:30
+2;1;Almendra II;1970;1:19:00
+3;1;El valle interior;1980;0:36:48
+4;2;Desatormentandonos;1972;0:41:44
+5;2;Pescado Rabioso 2;1973;1:12
+6;2;Artaud;1973;0:36:56
+7;3;Alma de diamante;1980;0:38:54
+8;3;Bajo Belgrano;1983;0:40:14
+9;3;Madre En Años Luz;1984;0:36:02
+10;3;Los niños que escriben en el cielo;1981;0:41:24
+11;4;Invisible ;1974;0:37:00
+12;4;Durazno Sangrando;1975;0:37:18
+13;4;Los jardín de los presentes;1976;0:37:42
+14;5;San Critóforo;1998;1:03:13
+15;5;Los ojos;1999;1:06:02
+16;5;Spinetta y los socios del desierto;1997;2:05:50
+17;NULL;Spinettalandia y sus amigos;1972;0:34:54
+18;NULL;A 18' Del Sol;1977;0:38:00
+19;NULL;Kamikaze;1982;0:45:49
+20;NULL;Mondo di cromo;1983;0:40:22
+21;NULL;Privé;1986;0:43:00
+22;NULL;La la la;1986;1:23
+23;NULL;Téster de violencia;1988;0:47:36
+24;NULL;Don Lucero;1989;0:44:55
+25;NULL;Pelusón of milk;1991;0:52:22
+26;NULL;Silver Sorgo;2001;0:50:41
+27;NULL;Para los árboles;2003;0:54:37
+28;NULL;Pan;2005;1:03:22
+29;NULL;Un mañana;2008;0:57:02
