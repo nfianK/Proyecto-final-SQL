@@ -14,5 +14,3 @@ create view Canciones_alternativo as select cancion.nombre as Cancion, genero.ge
 
 #Creación de la view donde te trae todos los guitarristas que estuvieron junto a Spinetta
 create view Guitarristas as select integrante.integrante_id, integrante.nombre, banda.nombre as banda from integrante left join rol on integrante.integrante_id = rol.integrante_id left join banda on rol.banda_id = banda.banda_id where integrante.integrante_id != (select integrante_id from integrante where nombre like '%Spinetta%') and rol.rol like 'guitarra';
-
-select * from guitarristas;
