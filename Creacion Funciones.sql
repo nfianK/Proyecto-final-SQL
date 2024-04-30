@@ -1,7 +1,8 @@
 Use Spinetta;
 
 delimiter #
-create function CancionesxBanda(IDbanda int)
+create function CancionesxBanda(IDbanda int) 
+-- Cuenta la cantidad de canciones realizadas por una banda
 returns int 
 deterministic 
 begin
@@ -18,6 +19,7 @@ begin
 end #
 
 create function enalbum (nombre_cancion char(45))
+-- Determina en que album se encuentra la cancion 
 returns char(45)
 reads sql data
 begin
@@ -32,6 +34,3 @@ begin
 end #
 
 delimiter ;
-    
-    
-    
